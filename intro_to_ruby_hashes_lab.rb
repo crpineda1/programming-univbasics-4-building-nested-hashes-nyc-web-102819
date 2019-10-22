@@ -17,7 +17,7 @@ def monopoly_with_third_tier
   # you built in the previous method. Run the tests. They will fail, but
   # they'll guide you in how to modify what you just did to have more
   # complexity.
-  hash1 = {railroads: {pieces: 4,rent_in_dollars: {lv1:0,lv2:0,lv3:0,lv4:0},names:"name"}}
+  hash1 = {railroads: {pieces: 4,rent_in_dollars: {lv1:0,lv2:0,lv3:0,lv4:0},names:["rr1","rr2","rr3","rr4"]}}
 end
 
 def monopoly_with_fourth_tier
